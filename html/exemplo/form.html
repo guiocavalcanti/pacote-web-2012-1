@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aprendendo forms</title>
+  </head>
+  <body>
+    <form action="#" method="GET">
+      <!-- possíveis tipos: text, passoword, checkbox, radio... -->
+      <fieldset>
+        <legend>Entre em contato</legend>
+        <label for="campo-de-nome">Nome:</label>
+        <input type="text" name="busca" id="campo-de-nome">
+
+        <label for="campo-de-email">E-mail:</label>
+        <input type="text" name="busca" id="campo-de-email">
+
+        <fieldset>
+          <legend>Sexo:</legend>
+          <label for="sexo-masc">Masculino</label>
+          <input type="radio" name="sexo" value="masc" id="sexo-masc">
+
+          <label for="sexo-fem">Feminido</label>
+          <input type="radio" name="sexo" value="fem" id="sexo-fem">
+        </fieldset>
+
+        <fieldset>
+          <legend>Assunto:</legend>
+
+          <label for="campo-assunto">Dúvida:</label>
+          <input type="checkbox" name="assunto" id="campo-assunto" value="duvida">
+
+          <label for="campo-parceria">Parceria:</label>
+          <input type="checkbox" name="assunto" id="campo-parceria" value="parceria">
+        </fieldset>
+
+        <label for="campo-de-sugestoes">Fale conosco:</label>
+        <textarea name="sugestoes" id="campo-de-sugestoes"></textarea>
+
+        <input type="submit" value="Cadastrar">
+      </fieldset>
+    </form>
+  </body>
+</html>

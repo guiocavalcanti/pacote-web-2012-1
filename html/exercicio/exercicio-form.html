@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício de forms</title>
+  </head>
+  <body>
+    <form action="#" method="POST">
+    <fieldset>
+    	<legend>Dados pessoas</legend>
+        <label for="campo-nome">Nome:</label>
+        <input type="text" name="nome" id="campo-nome">
+
+        <label for="campo-sexo">Sexo:</label>
+        <select name="sexo" id="campo-sexo">
+          <option value="masc">Masculino</option>
+          <option value="fem">Feminino</option>
+        </select>
+
+        <fieldset>
+            <legend>Bens</legend>
+
+            <label for="campo-casa">Casa</label>
+            <input type="checkbox" name="bens" id="campo-casa" value="casa">
+            <label for="campo-carro">Carro</label>
+            <input type="checkbox" name="bens" id="campo-carro" value="carro">
+        </fieldset>
+    </fieldset>
+
+    <fieldset>
+    	<legend>Dados de contato</legend>
+        <label for="campo-endereco">Endereço:</label>
+        <input type="text" name="endereco" id="campo-endereco">
+
+        <fieldset>
+          <legend>Tipo de moradia</legend>
+
+          <label for="campo-casa2">Casa</label>
+          <input type="radio" name="moradia" id="campo-casa2">
+          <label for="campo-predio">Casa</label>
+          <input type="radio" name="moradia" id="campo-predio">
+        </fieldset>
+
+        <label for="campo-email">Email</label>
+        <input type="text" name="email" id="campo-email">
+
+        <label for="campo-senha">Senha</label>
+        <input type="password" name="senha" id="campo-senha">
+
+        <label for="campo-mensagem">Mensagem</label>
+        <textarea id="campo-mensagem" name="mensagem"></textarea>
+
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar dados">
+    </fieldset>
+  </form>
+  </body>
+</html>
