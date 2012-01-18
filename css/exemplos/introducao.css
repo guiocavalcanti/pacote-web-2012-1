@@ -1,0 +1,61 @@
+/*
+a {
+  color: red;
+  font-family: arial, tahoma, sans-serif;
+  font-size: 26px;
+  font-weight: bold; /* normal */
+  /* font-style: italic; oblique */
+  /* text-decoration: none;
+}
+*/
+
+p {
+  text-align: right; /* left, justify, right */
+  text-decoration: underline;
+  /* blink, line-through, overline, none */
+  line-height: 60px;
+}
+
+/*
+div:hover {
+  background-color: blue;
+}
+*/
+
+/* links no estado hover
+a:hover {
+  color: purple;
+}
+*/
+
+/* links clicados
+a:visited {
+  color: red;
+}
+*/
+
+.destaque {
+  font-size: 30px;
+  color: yellow;
+}
+
+.menu > li {
+  border: 1px solid red;
+}
+
+li > a { /* filhos imediatos */
+  font-size: 50px;
+}
+
+#header {
+  font-size: 40px;
+}
+
+ul {
+  /* none, square, circle, decimal, disc
+  list-style-type: square;
+  */
+
+  list-style-position: inside;
+  list-style-image: url("https://developer.mozilla.org/skins/mdn/Transitional/img/mdn-logo-sm.png");
+}

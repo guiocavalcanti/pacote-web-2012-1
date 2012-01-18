@@ -1,0 +1,121 @@
+body {
+  background-color: #eee;
+  font-family: arial, sans-serif;
+}
+
+.todo a {
+  text-decoration: none;
+}
+
+.todo a:hover {
+  color: #999;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todo-app {
+  background-color: #fff; /* white */
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.todo-app h1 {
+  font-size: 26px;
+  text-align: center;
+  /* margin: 20px; */
+  padding: 40px;
+}
+
+.todo .item {
+  padding: 20px; /* pode ser feito individualmente*/
+  border-right: 1px solid #000;
+  border-left: 2px solid red;
+}
+
+.todo > .item > a {
+  font-weight: bold;
+  color: #000; /* black */
+}
+
+.todo ul a {
+  color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+body {
+  font-family: arial;
+  background-color: #eee;
+}
+
+.todo-app {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.todo-app h1 {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.todo {
+  width: 500px;
+}
+
+.todo a {
+  font-size: 18px;
+}
+
+.todo ul a {
+  color: #777;
+}
+
+.todo ul a:hover {
+  color: #999;
+}
+
+.todo > li > a { font-weight: bold; }
+
+ul {
+  list-style-type: none;
+}
+*/
