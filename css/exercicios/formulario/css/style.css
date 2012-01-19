@@ -1,0 +1,67 @@
+/**
+ * Cores utilizadas:
+   * Cor de pele: #EBE9DC
+   * Verde mais escuro: #98CD3F
+   * Verde mais claro: #ABE547
+   * Bordas: #D4D0C1
+   * Legend: #A8A599
+**/
+
+
+body {
+  background: #ebe9dc url("../imagens/background.png") repeat-x;
+}
+
+#container {
+  width: 600px;
+  margin: 50px auto;
+  border: 4px solid #d4d0c1;
+  background-color: white;
+  padding: 40px;
+}
+
+.form-padrao .form-container {
+  border: 3px solid #d4d0c1;
+  padding: 25px 90px;
+  background-color: #f5f4ee;
+}
+
+.form-padrao legend {
+  font-weight: bold;
+  font-size: 18px;
+  color: #a8a599;
+}
+
+.form-padrao .campo-padrao {
+  border: none;
+  background: url("../imagens/input.gif") no-repeat;
+  width: 301px;
+  height: 38px;
+  margin-bottom: 15px;
+}
+
+.form-padrao .botao {
+  border: none;
+  border: 1px solid #999;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  color: white;
+  background-color: #98cd3f;
+}
+
+#container .form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#container .tos {
+  color: #a8a599;
+  font-size: 12px;
+}
+
+#container .tos a {
+  color: #98cd3f;
+}
+
