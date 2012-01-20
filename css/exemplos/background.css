@@ -1,0 +1,18 @@
+body {
+  background-image: url("http://hidefwallpaper.org/wp-content/gallery/2_cool_backgrounds_02/cool-background_005.jpg");
+}
+
+.container {
+  background-image: url("http://redu-assets.s3.amazonaws.com/images/new/circulos-bokeh.png?1325620597");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /* border: 1px solid white; */
+  height: 600px;
+}
+
+p {
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+  width: 300px;
+}

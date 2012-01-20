@@ -1,0 +1,27 @@
+#container {
+
+  /*
+  background-image: url("http://www.passagensaereasdicas.com.br/wp-content/uploads/2011/12/frevo-1.jpg");
+  background-repeat: no-repeat;
+  background-position: 200px 100px;
+  background-color: #eee;
+  */
+
+  background: #eee url("http://www.passagensaereasdicas.com.br/wp-content/uploads/2011/12/frevo-1.jpg") no-repeat 200px 100px;
+  height: 600px;
+  border: 1px solid red;
+}
+
+#container2 label {
+  display: block;
+}
+
+#container2 p {
+  display: none;
+}
+
+#container2 a {
+  display: block;
+}
+
+

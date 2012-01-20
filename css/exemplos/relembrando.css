@@ -1,0 +1,36 @@
+.form-padrao .etiqueta {
+  display: block;
+}
+
+#a {
+  background-color: red;
+  margin: 10px;
+}
+
+#b {
+  background-color: blue;
+  margin: 20px 10px;
+}
+
+#c {
+  background-color: green;
+  padding: 30px;
+}
+
+.elementos {
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: purple;
+  text-decoration: underline;
+  line-height: 50px;
+}
+
+ul {
+  list-style-type: decimal;
+}
