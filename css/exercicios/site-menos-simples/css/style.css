@@ -1,0 +1,259 @@
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: url("../images/bg-geral.png");
+}
+
+#container-header {
+  background: url("../images/bg-barra-topo.png") repeat-x;
+  height: 59px;
+}
+
+#container-header .social-network-search {
+  width: 300px;
+  float: right;
+  padding: 10px 0;
+}
+
+#container-header .social-networks {
+  overflow: hidden;
+  width: 70px;
+  margin-left: 30px;
+  float: left;
+}
+
+#container-header .social-networks li {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  float: left;
+}
+
+#container-header .social-networks a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#container-header .rss {
+  background: url("../images/bt-rss.png") no-repeat;
+}
+
+#container-header .facebook {
+  background: url("../images/bt-facebook.png") no-repeat;
+}
+
+#container-header .twitter {
+  background: url("../images/bt-twitter.png") no-repeat;
+}
+
+#container-header .search-form {
+  float: left;
+  width: 150px;
+}
+
+#container-header .search-form input {
+  border: none;
+  background: url("../images/bg-busca.png") no-repeat;
+  width: 193px;
+  height: 30px;
+}
+
+#container-header .toolbar,
+#footer .footer-content,
+#container {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#container .header {
+  overflow: hidden;
+}
+
+#container .header .logo {
+  width: 230px;
+  float: left;
+}
+
+#container .header .logo a {
+  font-family: 'Copse', serif;
+  font-size: 40px;
+
+  text-shadow: 1px 1px 3px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+#container .header .nav {
+  width: 560px;
+  float: right;
+  margin-top: 35px;
+}
+
+#container .header .nav li {
+  float: left;
+  margin-right: 30px;
+}
+
+#container .header .nav a {
+  display: block;
+  padding: 8px 15px;
+  font-weight: bold;
+  color: #7a8090;
+
+
+  text-shadow: 1px 1px 3px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#container .header .nav a:hover {
+  color: white;
+  background: url("../images/bg-transparente.png");
+}
+
+#container .slider {
+  margin-top: 20px;
+  width: 930px;
+  height: 369px;
+  padding: 10px 10px 0 10px;
+  background: url("../images/bg-banner.png") no-repeat;
+}
+
+#container .image {
+  width: 930px;
+  height: 320px;
+  background: url("../images/imagem3.jpg") no-repeat;
+}
+
+#container .calls {
+  overflow: hidden;
+  background: url("../images/bg-transparente.png");
+  margin-top: 15px;
+  padding: 20px 25px;
+}
+
+#container .call-wrapper {
+  width: 280px;
+  float: left;
+  margin-right: 26px;
+  background: url("../images/bg-transparente.png");
+}
+
+#container .last {
+  margin-right: 0;
+}
+
+#container .call {
+  background: url("../images/bg-boxes.png") no-repeat;
+}
+
+#container .call a {
+  display: block;
+  padding: 10px 10px 10px 50px ;
+}
+
+#container .call .about {
+  background: url("../images/icone-pessoa.png") no-repeat 10px 13px;
+}
+
+#container .call .group {
+  background: url("../images/icone-chat.png") no-repeat 10px 13px;
+}
+
+#container .call .contact {
+  background: url("../images/icone-telefone.png") no-repeat 10px 13px;
+}
+
+#container .call-wrapper img {
+  margin: 10px 15px;
+}
+
+#container .call-wrapper p {
+  color: #7a8090;
+  font-size: 13px;
+  margin: 15px;
+}
+#container .call-wrapper .more {
+  display: block;
+  background-color: #11719f;
+  font-size: 11px;
+  font-weight: bold;
+  padding:10px 20px;
+  margin: 15px;
+  float: left;
+}
+
+#container .contact-info em {
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 20px;
+}
+
+#container .contact-info .addr {
+  color: #7a8090;
+}
+
+#container .contact-info address {
+  margin: 15px;
+}
+
+#footer {
+  padding-top: 30px;
+  margin-top: 30px;
+
+  background: #f0f9ff; /* Old browsers */
+  background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(47%,#cbebff), color-stop(100%,#a1dbff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* IE10+ */
+  background: linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+}
+
+#footer .logo-footer {
+  color: black;
+  background: url("../images/icone-twitter.png") no-repeat;
+  padding-left: 50px;
+}
+
+#footer .twitter-feed li {
+  width: 305px;
+  height: 134px;
+  float: left;
+  margin-right: 9px;
+  background: url("../images/bg-twitter.png") no-repeat;
+}
+
+#footer .copyright {
+  display: block;
+  clear: both;
+  padding-top: 50px;
+  font-size: 11px;
+}
+
+
+

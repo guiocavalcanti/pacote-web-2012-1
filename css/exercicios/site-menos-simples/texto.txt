@@ -1,0 +1,54 @@
+- RSS
+- Facebook
+- Twitter
+
+(Campo de busca)
+
+PACOTE WEB
+  1. Inicial
+  2. Sobre
+  3. Portfólio
+  4. Blog
+  5. Contato
+
+  (Banner grande)
+
+  Chamadas:
+
+    - Sobre o curso
+
+      (imagem)
+
+      Tudo sobre client-side
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna at mi suscipit pulvinar. Donec vel purus nisi, eu tempus erat.
+      Leia mais
+
+    - Grupo de discussão
+
+      (imagem)
+
+      Materinal da aula 18/07
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac magna at mi suscipit pulvinar. Donec vel purus nisi, eu tempus erat.
+      Leia mais
+
+    - Entre em contato
+
+      - Telefone
+        +55 81 9194 5000
+      - E-mail
+        curso-web-citi-2011-2@googlegroups.com
+      - Skype
+        guiocavalcanti
+
+  Rodapé
+    Aconteceu no Twitter:
+
+      @guiocavalcanti Knowledge acquisition will no longer be confined to large lecture halls and assigned papers. http://is.gd/d7dm4F
+      25 Jun
+
+      @guiocavalcanti hacking with coffescript
+      16 Jun
+
+      @guiocavalcanti DOM is the bottleneck: If the JS engine were infinitely fast, most web apps would run about the same time. Douglas Crockford at #velocity
+      16 Jun
+
