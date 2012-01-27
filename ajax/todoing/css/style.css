@@ -1,0 +1,102 @@
+body {
+  background: url("../images/background.png");
+  font-family: arial, sans-serif;
+}
+
+#container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+#logotipo {
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: 'Bangers', cursive;
+}
+
+#logotipo h1 {
+  font-size: 67px;
+  color: #FDE6BD;
+
+  text-shadow: 2px 2px 4px #24251E;
+  filter: dropshadow(color=#24251E, offx=1, offy=1);
+}
+
+#logotipo em {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+}
+
+#lista li {
+  background-color: #DDDA8A;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  -webkit-box-shadow: 1px 1px 4px 0px #24251E;
+  -moz-box-shadow: 1px 1px 4px 0px #24251E;
+  box-shadow: 1px 1px 4px 0px #24251E;
+}
+
+#lista .remover {
+  float: right;
+  border: none;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../images/remover.png") no-repeat;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+
+#lista .description {
+  font-weight: bold;
+  color: #6A6D59;
+}
+
+#novo-elemento {
+  background-color: #DDDA8A;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  -webkit-box-shadow: 1px 1px 4px 0px #24251E;
+  -moz-box-shadow: 1px 1px 4px 0px #24251E;
+  box-shadow: 1px 1px 4px 0px #24251E;
+}
+
+#description {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: #6A6D59;
+  width: 450px;
+  float: left;
+}
+
+#criar {
+  float: right;
+  font-family: 'Bangers', cursive;
+  color: #C5B266;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#criar:focus {
+  color: #EE3054;
+}
+
+#carregando {
+  background: black url("../images/carregando.gif") no-repeat center center;
+  margin: 20px 0;
+  padding: 10px 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 48px;
+}

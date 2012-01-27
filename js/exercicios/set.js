@@ -34,3 +34,54 @@
 
 
 */
+
+var Set = function(){
+  this.elements = [];
+};
+
+Set.prototype.add = function(el) {
+  if(!this.exists(el)) {
+    this.elements.push(el);
+  }
+
+  return this;
+};
+
+Set.prototype.exists = function(el) {
+  for(var i = 0; i < this.elements.length; i++){
+    if(this.elements[i] === el) { return true; }
+  }
+
+  return false;
+};
+
+Set.prototype.remove = function(el) {
+  for(var i = 0; i < this.elements.length; i++) {
+    if(this.elements[i] === el) {
+      this.elements.splice(i,1);
+      break;
+    }
+  }
+
+  return this;
+};
+
+Set.prototype.toString = function() {
+  return "{" + this.elements.join(',') + "}";
+};
+
+Set.prototype.union = function(set) {
+  var newSet = new Set();
+
+  for(var i = 0; i < this.elements.length; i++)
+    newSet.add(this.elements[i]);
+  for(var i = 0; i < set.elements.length; i++)
+    newSet.add(set.elements[i]);
+
+  return newSet;
+};
+
+Set.prototype.clear = function(){
+  this.elements = [];
+  return this;
+};

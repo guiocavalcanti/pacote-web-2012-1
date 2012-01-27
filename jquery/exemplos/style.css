@@ -1,0 +1,14 @@
+.vermelho,
+.azul {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.vermelho {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}

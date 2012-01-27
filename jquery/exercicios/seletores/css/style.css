@@ -1,0 +1,13 @@
+.selecionado {
+  background-color: #0a70a7;
+  border: 2px solid black;
+  color: white;
+}
+
+.espacamento {
+  margin-bottom: 20px;
+}
+
+.compras {
+  width: 400px;
+}
